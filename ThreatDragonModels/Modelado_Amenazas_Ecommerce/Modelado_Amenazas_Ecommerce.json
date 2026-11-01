@@ -660,7 +660,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Límite Internet)",
+              "name": "Límite Internet",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -668,7 +668,7 @@
               "containedElements": []
             },
             "labels": [
-              "Límite Internet)"
+              "Límite Internet"
             ],
             "id": "6f980b5f-7549-4b2c-8410-46c1868c2e00",
             "source": {
@@ -679,12 +679,17 @@
               "x": 740,
               "y": 430
             },
-            "vertices": [
-              {
-                "x": 670,
-                "y": 430
-              }
-            ]
+            "vertices": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "trust-boundary-curve",
